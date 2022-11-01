@@ -1,7 +1,7 @@
 * {
   padding: 0%;
   margin: 0%;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Outfit', sans-serif;
 }
 body {
   background: #2b5876; /* fallback for old browsers */
@@ -16,8 +16,18 @@ body {
     #2b5876
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
+
 div#navbarNav {
   justify-content: end;
+  margin-right: 80px;
+}
+.dropdown-menu{
+  background-color: #8d8dda;
+  border: none;
+}
+.dropdown-menu li{
+  color: #abd9d9;
+
 }
 .contenedor-header {
   display: flex;
@@ -32,7 +42,7 @@ div#navbarNav {
   font-size: 30px;
 }
 .texto-header small {
-  font-size: 8px;
+  font-size: 13px;
   text-align: center;
 }
 .img-header {
@@ -61,6 +71,7 @@ div#navbarNav {
 .texto-section1 p {
   padding: 30px;
   text-align: start;
+  font-size: 19px;
 }
 .img-sujeto {
   width: 20rem;
@@ -80,7 +91,7 @@ div#navbarNav {
   text-align: end;
 }
 .text-section2 h1 {
-  font-size: 45px;
+  font-size: 41px;
   color: #abd9d9;
   font-weight: 600;
 }
@@ -89,8 +100,9 @@ div#navbarNav {
 }
 
 .text-section2 p {
-  font-size: 17px;
-  padding: 0px;
+  font-size: 19px;
+  margin-top: -60px;
+  color: white;
 }
 .img-telefono {
   width: 17rem;
@@ -101,6 +113,13 @@ div#navbarNav {
   padding: 50px;
   font-weight: 600;
 }
+.titulo-testimonios2 {
+  text-align: center;
+  color: #abd9d9;
+  font-size: 25px;
+  font-weight: 600;
+}
+
 .titulo-servicios h1 {
   font-size: 45px;
   font-weight: 600;
@@ -115,10 +134,14 @@ div#navbarNav {
   font-weight: 600;
 }
 .titulo-reseñas h1 {
-  color: #abd9d9;
+  color: white;
+  text-align: center;
   font-weight: 600;
-  font-size: 45px;
+  font-size: 20px;
+  padding-bottom: 50px;
+  font-weight: 800;
 }
+
 .titulo-reseñas h2 {
   font-size: 18px;
 }
@@ -132,6 +155,7 @@ div#navbarNav {
 }
 .texto2 {
   text-align: end;
+  font-size: 20px;
 }
 
 /* ESTILOS CARRROUSEL CARDS SERVICIOS */
@@ -240,6 +264,9 @@ div#navbarNav {
   .swiper-navBtn {
     display: none;
   }
+}
+.boton-section2 {
+  margin-left: 60px;
 }
 
 .button {
@@ -490,6 +517,10 @@ div#navbarNav {
   .text-section2 {
     text-align: center;
   }
+  .btn2 {
+    position: relative;
+    left: 500px;
+  }
 }
 
 @media screen and (min-width: 992px) {
@@ -500,7 +531,8 @@ div#navbarNav {
   .img-header {
     width: 18rem;
   }
-  .button,.btn {
+  .button,
+  .btn {
     padding: 20px;
   }
   .contenedor-section2 p,
@@ -510,6 +542,22 @@ div#navbarNav {
   }
   .box h1 {
     padding: 10px;
+  }
+  .btn2 {
+    position: relative;
+    left: 700px;
+    padding: 10px;
+  }
+  .texto1 {
+    text-align: start;
+    margin: 0;
+    font-size: 20px;
+    margin-right: 180px;
+  }
+  .texto2 {
+    text-align: end;
+    font-size: 20px;
+    margin-left: 180px;
   }
 }
 
@@ -525,35 +573,55 @@ div#navbarNav {
   .texto-header h1 {
     font-size: 60px;
   }
-  .button, .btn{
+  .button,
+  .btn {
     border-radius: 60px;
   }
-  .contenedor-section1, .contenedor-section2{
+  .contenedor-section1,
+  .contenedor-section2 {
     display: flex;
     justify-content: space-around;
     flex-direction: row;
   }
-  .text-section2 , .text-section2 p{
+  .text-section2,
+  .text-section2 p {
     text-align: start;
     margin-top: 0;
   }
-  .text-section2 p{
+  .text-section2 p {
     color: white;
     margin-bottom: 55px;
-    margin-right: 80px ;
+    margin-right: 80px;
   }
-  .img-telefono{
+  .img-telefono {
     width: 20rem;
   }
-  .titulo-testimonios{
+  .titulo-testimonios {
     text-align: center;
   }
-  .texto1 ,.texto2{
+  .texto1,
+  .texto2 {
     text-align: justify;
+  }
+  .btn2 {
+    position: relative;
+    left: 900px;
+    padding: 10px;
+  }
+  .texto1 {
+    text-align: start;
+    margin: 0;
+    font-size: 20px;
+    margin-right: 180px;
+  }
+  .texto2 {
+    text-align: end;
+    font-size: 20px;
+    margin-left: 180px;
   }
 }
 
-@media screen and (min-width: 1920px) {
+@media screen and (min-width: 1620px) {
   .contenedor-header {
     margin-left: 280px;
     margin-right: 250px;
@@ -565,44 +633,94 @@ div#navbarNav {
   .texto-header h1 {
     font-size: 80px;
   }
-  .texto-header small{
+  .texto-header small {
     margin-left: 40px;
   }
-  .img-sujeto{
+  .img-sujeto {
     width: 50rem;
   }
-  .texto-section1{
+  .texto-section1 {
     margin-right: 50px;
   }
-  .texto-section1 h1{
+  .texto-section1 h1 {
     font-size: 60px;
   }
-  .texto-section1 p{
+  .texto-section1 p {
     font-size: 25px;
   }
-  .contenedor-section2{
+  .contenedor-section2 {
     margin-left: 80px;
     margin-right: 90px;
   }
-  .contenedor-section2 h1{
+  .contenedor-section2 h1 {
     font-size: 60px;
   }
-  .contenedor-section2 p{
+  .contenedor-section2 p {
     font-size: 25px;
     margin-bottom: 50px;
   }
-  .img-telefono{
+  .img-telefono {
     width: 30rem;
   }
- .botones-header{
-  margin-top: -100px;
- }
- .button{
-  padding: 20px;
-  width: 200px;
- }
- .btn{
-  padding: 20px;
-  width: 200px;
- }
+  .botones-header {
+    margin-top: -100px;
+  }
+  .button {
+    padding: 20px;
+    width: 200px;
+  }
+  .btn {
+    padding: 20px;
+    width: 200px;
+  }
+  .btn2 {
+    padding: 10px;
+    margin-left: -200px;
+  }
+  .container-reseñas {
+    padding-top: 180px;
+  }
+  .text-section2 p {
+    margin-right: 500px;
+    padding-top: -80px;
+    margin-bottom: -80px;
+  }
+  .boton-section2 {
+    margin-left: 250px;
+    padding-top: -120px;
+  }
+  .boton-section2 .button {
+    padding: 20px;
+    width: 300px;
+    margin-right: 0px;
+    font-size: 14px;
+  }
+  .boton-section1 {
+    margin-left: 750px;
+    margin-bottom: 80px;
+    margin-top: -80px;
+  }
+  .boton-section1 .button {
+    width: 300px;
+    font-size: 14px;
+  }
+  .texto1 {
+    text-align: start;
+    margin: 0;
+    font-size: 30px;
+    margin-right: 280px;
+    padding-bottom: 50px;
+  }
+  .texto2 {
+    text-align: end;
+    font-size: 30px;
+    margin-left: 280px;
+  }
+  .titulo-testimonios2 {
+    font-size: 30px;
+  }
+  .titulo-reseñas h1 {
+    font-size: 40px;
+  }
+  
 }
