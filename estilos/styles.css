@@ -90,10 +90,13 @@ div#navbarNav {
 .text-section2 {
   text-align: end;
 }
-.text-section2 h1 {
-  font-size: 41px;
-  color: #abd9d9;
+.contenedor-section2 h1{
   font-weight: 600;
+}
+.text-section2 h1 {
+  font-size: 45px;
+  color: #abd9d9;
+  
 }
 .text-section2 h3 {
   font-size: 15px;
@@ -307,6 +310,12 @@ div#navbarNav {
 .content .image-box img {
   width: 100%;
 }
+.insta{
+  width: 40px;
+}
+.wpp{
+  width: 40px;
+}
 .content .topic {
   font-size: 22px;
   font-weight: 500;
@@ -463,7 +472,6 @@ div#navbarNav {
   line-height: 45px;
   color: #fff;
   margin-right: 10px;
-  background-color: #6e93f7;
   text-align: center;
   transition: all 300ms ease;
 }
