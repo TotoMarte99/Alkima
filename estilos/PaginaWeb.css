@@ -74,6 +74,20 @@
   .button:hover {
     background-color: #abd9d9;
   }
+  .button2 {
+    border: none;
+    font-size: 16px;
+    color: white;
+    padding: 8px;
+    background-color: #8d8dda;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  .button2:hover {
+    background-color: #abd9d9;
+  }
+  
   
   .contenedor1 img{
     width: 40px;
@@ -363,6 +377,10 @@
         color: white;
         margin-left: 420px;
       }
+      .button2{
+        margin-left: auto;
+        margin-right: auto;
+      }
       
   }
   @media screen and (min-width: 1200px){
@@ -387,6 +405,11 @@
         margin-left: 50px;
         margin-right: 50px;
         
+      }
+      .button2{
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 100px;
       }
       .contenedor1{
         font-size: 25px;
@@ -432,6 +455,10 @@
       }
       .button{
         padding: 20px;
+      }
+      .button2{
+        padding: 20px;
+        margin-left: 800px;
       }
       .contenedor1-text h2{
         font-size: 35px;
