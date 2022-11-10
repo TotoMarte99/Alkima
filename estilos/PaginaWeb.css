@@ -97,6 +97,7 @@
     padding-top: 90px;
     color: white;
     gap: 10px;
+    font-size: 20px;
 
   }
   .contenedor1-text h2{
@@ -117,6 +118,9 @@
   }
   .contenedor1a img{
     width: 40px;
+  }
+  .contenedor1a-text{
+    font-size: 20px;
   }
   .slide-content {
     margin: 0 40px;
