@@ -31,6 +31,11 @@ div#navbarNav {
   color: #abd9d9;
 
 }
+.btn-outline-secondary {
+  color: #6c757d;
+  border-color: #6c757d;
+  margin-bottom: 7px;
+}
 .contenedor-header {
   display: flex;
   flex-direction: column-reverse;
