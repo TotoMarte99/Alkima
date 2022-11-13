@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="shortcut icon" href="../img/favicon.png" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@200;300;400;500&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
@@ -39,8 +40,9 @@
               <li><a class="dropdown-item" href="./servicioRedesSociales.html">Redes Sociales</a></li>
             </ul>
           </li>
+          
           <li class="nav-item">
-            <a class="nav-link" href="#">PRECIOS</a>
+            <a class="nav-link" href="./contacto.html">CONTACTO</a>
           </li>
         </ul>
       </div>
@@ -59,7 +61,7 @@
         </div>
     </div>
     <div class="btns-container">
-        <button class="button">¿HABLAMOS?</button>
+      <a href="./contacto.html"><button class="button">¿Hablamos?</button></a>
     </div>
   </section>
   <section>
@@ -93,7 +95,7 @@
                       </div>
                     </div>
                     <div class="card-content">
-                      <h2 class="name">Plan Base</h2>
+                      <h2 class="name">Plan Base Redes</h2>
                       <p class="description">
                         <ul class="lista">
                           <li>Facebook e Instagram</li>
@@ -106,7 +108,7 @@
                           <li>Informe mensual de estadisticas</li>
                         </ul>
                       </p>
-                      <button class="button">Contratar</button>
+                      <a href="#contactoForm"><button class="button">Contratar</button></a>
                     </div>
                   </div>
                   <div class="card swiper-slide">
@@ -119,7 +121,7 @@
                       </div>
                     </div>
                     <div class="card-content">
-                      <h2 class="name">Plan Pro</h2>
+                      <h2 class="name">Plan Pro Redes</h2>
                       <p class="description">
                         <ul class="lista">
                           <li>Facebook e Instagram</li>
@@ -132,7 +134,7 @@
                           <li>Informe mensual de estadisticas</li>
                         </ul>
                       </p>
-                      <button class="button">Contratar</button>
+                      <a href="#contactoForm"><button class="button">Contratar</button></a>
                     </div>
                   </div>
                   <div class="card swiper-slide">
@@ -145,7 +147,7 @@
                       </div>
                     </div>
                     <div class="card-content">
-                      <h2 class="name">Plan Empresarial</h2>
+                      <h2 class="name">Plan Redes Corp</h2>
                       <p class="description">
                         <ul class="lista">
                           <li>Facebook e Instagram</li>
@@ -158,10 +160,48 @@
                           <li>Informe mensual de estadisticas</li>
                         </ul>
                       </p>
-                      <button class="button">Contratar</button>
+                      <a href="#contactoForm"><button class="button">Contratar</button></a>
                     </div>
                   </div>
   </section>
+  <section id="contactoForm">
+    <div class="header-form">
+    <h1>COMPLETA EL FORMULARIO</h1>
+    <h3>Un asesor se comunicara contigo</h3>
+    </div>
+    <div class="container">
+      <div class="content">
+        <div class="image-box">
+         <img src="../img/mobil2.png" alt=""> 
+        </div>
+      <form action="#">
+        <div class="topic">Contactanos</div>
+        <div class="input-box">
+          <input type="text" required>
+          <label>Nombre y Apellido</label>
+        </div>
+        <div class="input-box">
+          <input type="text" required>
+          <label>Email</label>
+        </div>
+        <div class="input-box">
+         <span class="details">¿Que Servicio Necesitas?</span>
+          <select name="services-names" id="nombre-servicios" required>
+            <option value="PlanBase">Plan Base Redes</option>
+            <option value="PlanPro">Plan Pro Redes</option>
+            <option value="PlanEmpresarial">Plan Redes Corp</option>
+        </select>
+        </div>
+        <div class="message-box">
+          <textarea class="textarea" id="" cols="30" rows="10" placeholder=" ¿De que se trata tu proyecto y como podemos ayudarte?"></textarea>
+        </div>
+        <div class="input-box">
+          <input type="submit" value="Enviar Mensaje">
+        </div>
+      </form>
+    </div>
+    </div>
+  </section> 
   <footer class="pie-pagina">
     <div class="grupo-1">
         <div class="box">
