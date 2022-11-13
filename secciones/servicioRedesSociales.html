@@ -180,26 +180,26 @@
         <form name="AdminRedesSociales" method="POST" data-netlify="true">
           <div class="topic">Contáctenos</div>
         <div class="input-box">
-          <input type="text" required>
+          <input type="text" name="nombreCompleto" required>
           <label>Nombre y Apellido</label>
         </div>
         <div class="input-box">
-          <input type="text" required>
+          <input name="email" type="text" required>
           <label>Email</label>
         </div>
         <div class="input-box">
          <span class="details">¿Que Servicio Necesitas?</span>
-          <select name="services-names" id="nombre-servicios" required>
+          <select name="services-names[]" id="nombre-servicios" required>
             <option value="PlanBase">Plan Base Redes</option>
             <option value="PlanPro">Plan Pro Redes</option>
             <option value="PlanEmpresarial">Plan Redes Corp</option>
         </select>
         </div>
         <div class="message-box">
-          <textarea class="textarea" id="" cols="30" rows="10" placeholder=" ¿De que se trata tu proyecto y como podemos ayudarte?"></textarea>
+          <textarea name="mensaje" class="textarea" id="" cols="30" rows="10" placeholder=" ¿De que se trata tu proyecto y como podemos ayudarte?"></textarea>
         </div>
         <div class="input-box">
-          <input type="submit" value="Enviar Mensaje">
+          <button class="btn btn-secondary" type="submit">Enviar</button>
         </div>
       </form>
     </div>

@@ -55,23 +55,23 @@
         <div class="user-details">
           <div class="input-box">
             <span class="details">Nombre</span>
-            <input type="text" placeholder="Ingresa tu nombre" required>
+            <input name="nombre" type="text" placeholder="Ingresa tu nombre" required>
           </div>
           <div class="input-box">
             <span class="details">Apellido</span>
-            <input type="text" placeholder="Ingresa tu apellido" required>
+            <input name="apellido" type="text" placeholder="Ingresa tu apellido" required>
           </div>
           <div class="input-box">
             <span class="details">Email</span>
-            <input type="text" placeholder="Ingresa tu email" required>
+            <input name="email" type="text" placeholder="Ingresa tu email" required>
           </div>
           <div class="input-box">
             <span class="details">Teléfono</span>
-            <input type="text" placeholder="Ingresa tu teléfono" required>
+            <input name="telefono" type="number" placeholder="Ingresa tu teléfono" required>
           </div>
           <div class="input-box">
             <span class="details">¿Que Servicio Necesitas?</span>
-            <select name="services-names" id="nombre-servicios" required>
+            <select name="services-names[]" id="nombre-servicios" required>
                 <option value="Diseño Pagina Web">Diseño Web</option>
                 <option value="Tienda Online">Tienda Online</option>
                 <option value="Remodelación Web">Remodelación Web</option>
@@ -82,11 +82,10 @@
         </div>
         <div class="input-box">
           <span class="details">Coméntanos sobre tu proyecto</span>
-        <textarea name="" id="" cols="70" rows="10"></textarea>        </div>
+        <textarea name="mensaje" id="" cols="70" rows="10"></textarea>        </div>
         
         <div class="button">
-          <input type="submit" value="Enviar">
-        </div>
+          <button class="btn btn-secondary" type="submit">Enviar</button>        </div>
       </form>
     </div>
   </div>
