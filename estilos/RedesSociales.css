@@ -39,6 +39,12 @@ div#navbarNav {
 .contenedor-img img{
   width: 15rem;
 }
+.link-footer{
+  text-decoration: none;
+}
+.box p:hover{
+  color: #0d0d35;
+}
 .precios{
   font-weight: 600;
   color: green;

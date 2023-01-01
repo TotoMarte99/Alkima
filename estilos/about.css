@@ -42,6 +42,12 @@ padding: 30px;
     margin-right: 20px;
     
 }
+.link-footer{
+  text-decoration: none;
+}
+.box p:hover{
+  color: #0d0d35;
+}
 .text-aboutUs h1{
     font-weight: 800;
     color: #abd9d9;

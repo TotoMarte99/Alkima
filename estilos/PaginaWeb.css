@@ -61,6 +61,12 @@
     justify-content: center;
     padding: 20px;
   }
+  .link-footer{
+    text-decoration: none;
+  }
+  .box p:hover{
+    color: #0d0d35;
+  }
   .button {
     border: none;
     font-size: 16px;

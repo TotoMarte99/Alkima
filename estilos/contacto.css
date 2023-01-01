@@ -50,6 +50,12 @@
     grid-gap: 50px;
     padding: 45px 0px;
   }
+  .link-footer{
+    text-decoration: none;
+  }
+  .box p:hover{
+    color: #0d0d35;
+  }
   .pie-pagina .grupo-1 .box figure {
     width: 100%;
     height: 100%;

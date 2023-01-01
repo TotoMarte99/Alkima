@@ -290,6 +290,12 @@ select{
   background-color: #abd9d9;
   color: #4e4376;
 }
+.link-footer{
+  text-decoration: none;
+}
+.box p:hover{
+  color: #0d0d35;
+}
 .content .message-box textarea {
   position: absolute;
   height: 100%;
